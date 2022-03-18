@@ -1,0 +1,22 @@
+---
+test_metrics:
+  calc_success_request: 
+    1:
+      - click-znmp1-rep1.example.ru:8123
+      - click-znmp1-rep2.example.ru:8124
+    2:
+      - click-znmp2-rep1.example.ru:8123
+      - click-znmp2-rep2.example.ru:8124
+    3:
+      - click-znmp3-rep1.example.ru:8123
+      - click-znmp3-rep2.example.ru:8124
+  calc_error_request: 
+    1:
+      - click-znmp1-rep1.example.ru:8123
+      - click-znmp1-rep2.example.ru:8124
+    2:
+      - click-znmp2-rep1.example.ru:8123
+      - click-znmp2-rep2.example.ru:8124
+    3:
+      - click-znmp3-rep1.example.ru:8123
+      - click-znmp3-rep2.example.ru:8124
